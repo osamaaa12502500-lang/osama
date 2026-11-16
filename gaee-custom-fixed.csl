@@ -94,7 +94,7 @@
   <macro name="issued">
     <choose>
       <if type="article-journal report" match="any">
-        <date date-parts="year" variable="issued">
+        <date date-parts="year" variable="issued" form="text">
           <date-part name="year" form="long"/>
         </date>
       </if>
